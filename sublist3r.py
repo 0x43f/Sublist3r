@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
-# Sublist3r v1.0
-# By Ahmed Aboul-Ela - twitter.com/aboul3la
+# Sublist3r v2023
+# By 0x43f - https://twitter.com/Tr1ph4s3_
 
 # modules in standard library
 import re
@@ -79,7 +79,7 @@ def banner():
                  ___) | |_| | |_) | | \__ \ |_ ___) | |
                 |____/ \__,_|_.__/|_|_|___/\__|____/|_|%s%s
 
-                # Coded By Ahmed Aboul-Ela - @aboul3la
+                # Recoded v2023  - @0x43f 
     """ % (R, W, Y))
 
 
@@ -152,7 +152,7 @@ class enumratorBase(object):
         self.silent = silent
         self.verbose = verbose
         self.headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; rv:102.0) Gecko/20100101 Firefox/102.0 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
             'Accept-Language': 'en-US,en;q=0.8',
             'Accept-Encoding': 'gzip',
